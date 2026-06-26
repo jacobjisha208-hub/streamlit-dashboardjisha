@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Care Load Dashboard")
 
-df=pd.read_excel(r"C:\Users\jijin\Downloads\HHS_Unaccompanied_Alien_Children_Program20878(3).xlsx",header=1)
+df=pd.read_excel("HHS_Unaccompanied_Alien_Children_Program20878(3).xlsx",header=1)
 
 df.columns=["Year","Total System Load"]
 df=df.dropna()
